@@ -1,0 +1,78 @@
+header{
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	text-align: center;
+}
+header>h1{
+	font-family: Arial;
+	font-size: 60px;
+	font-weight: bold;
+}
+header>#newGameButton{
+	display: block;
+	margin: 20px auto;
+	width: 100px;
+	padding: 10px;
+	background-color: #8f7a66;
+	font-family: Arial;
+	color: white;
+	border-radius: 10px;
+	text-decoration: none;
+}
+header>#newGameButton:hover{
+	background-color: #9f8b77;
+}
+header>p{
+	font-family: Arial;
+	font-size: 25px;
+	margin: 20px auto;
+}
+.grid-container{
+	position: relative;
+	width: 460px;
+	height: 460px;
+	padding: 20px;
+	margin: 50px auto;
+	background-color: #bbada0;
+	border-radius: 10px; 
+}
+.grid-cell{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 6px;
+	background-color: #ccc0b3;
+}
+.number-cell{
+	position: absolute;
+	border-radius: 6px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 100px;
+	text-align: center;
+}
+.container{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	top: 0;
+	z-index: 4;
+	display: none;
+}
+.over{
+	position: fixed;
+	top: 150px;
+	left: 50%;
+	margin-left:-300px;
+	background: rgb(125,110,150);
+	width: 600px;
+	height: 600px;
+	text-align: center;
+	line-height: 300px;
+	font-size: 100px;
+	font-weight:bold;
+	z-index: 4;
+}
