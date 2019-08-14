@@ -7,7 +7,7 @@ function getPosLeft(j) {
 }
 
 function getNumberBackgroundColor(number) {
-	switch (parseInt(number)) {
+	switch (number) {
 		case 2:
 			return "#eee4da";
 			break;
